@@ -82,6 +82,7 @@
 /* log */
 #log {
   margin-top: 80px;
+    overflow:hidden;
 }
 #myLog {
     background-color:#D9D9D9;
