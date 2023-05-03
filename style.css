@@ -7,8 +7,6 @@
     color: black;
     line-height: 1.7;
     font-size: 12px;
-    overflow-y: hidden; /* Hide vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
 
 }
 
