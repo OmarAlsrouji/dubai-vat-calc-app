@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <button id="logout_button" onclick="consolelogger()">print</button> -->
+    <!-- Header -->
+    <nav id="header" class="container-fluid my-5">
+        <div class="date-time-section">
+            <span id="day"></span><span id="date"></span>
+        </div>
+    </nav>
+    <!-- END of Header -->
+    
+    <!-- Sales Section -->
+    <section id="sales" class="container my-5">
+        <div class="sales-header"><span>Sales</span></div>
+        <div class="sales-input d-flex justify-content-center my-2">
+            <input type="text" id="input1" class="input1 text-center mx-2" placeholder="Name of Sold item"></input>
+            <input type="text" id="input2" class="input1 text-center"   placeholder="Price of Sold Item"></input>
+            <button id="add_button_sales" onclick="addSales()" class="add_button">+</button>
+        </div>
+    </section>
+    <!-- end of sales section -->
+
+    <!-- Expenses seciton -->
+    <section id="expenses" class="container">
+        <div class="sales-header"><span>Expenses</span></div>
+        <div class="sales-input d-flex justify-content-center my-2">
+            <input id="input3" class="input1 text-center mx-2" placeholder="Type of Expense"></input>
+            <input id="input4" class="input1 text-center d-flex flex-wrap " placeholder="Amount Paid"></input>
+        </div>
+        <div class="sales-input d-flex justify-content-center my-2">
+            <input id="input5" class="input1 text-center" placeholder="Company Name"></input>
+            <button id="add_button2" onclick="addExpense()" class="expenses add_button">+</button>
+        </div>
+    </section>
+
+    <!-- record log -->
+    <section id="log" class="container">
+        <div id="myLog">
+            <ul id="myUL" class="scroll"></ul>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
