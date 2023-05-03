@@ -83,7 +83,7 @@
 
 /* log */
 #log {
-  margin-top: 80px;
+  margin-top: 30px;
     overflow:hidden;
 }
 #myLog {
@@ -109,7 +109,7 @@
     margin: 0;
     padding: 2px;
     overflow: hidden;
-    max-height: 200px;
+/*     max-height: 200px; */
   }
 
   
