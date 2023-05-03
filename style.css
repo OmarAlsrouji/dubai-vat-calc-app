@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto&family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    position: relative;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+    color: black;
+    line-height: 1.7;
+    font-size: 12px;
+    
+}
+
+/* Header styles */
+
+#header {
+    background-color: #D9D9D9;
+    display: flex;
+    border-radius: 12px ;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+.date-time-section #day{
+    margin-right: 45px;
+    margin-left: auto;
+}
+.date-time-section #date{
+    margin-left: auto;
+}
+/* End */
+
+/* Sales section styles */
+#sales {
+    
+    width: 100px;
+    height: 20px;
+    
+}
+.sales-header {
+    display: flex;
+    height: 20px;
+    margin: auto;
+    justify-content: center;
+    background: #D9D9D9;
+    border-radius: 12px;
+}
+.sales-header span {
+    padding-top: 2.5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.input1 {
+    border-radius: 9px;
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;  
+}
+.add_button {
+    border-radius: 11px;
+    background: #D9D9D9;
+    border-color: #D9D9D9;
+    margin-left: 2px;
+}
+/* end of expenses styles */
+/* expenses */
+#input4 {
+    margin-right: 6px;
+}
+#expenses {
+    margin-top: 70px;
+    width: 130px;
+    height: 25px;
+    
+}
+
+
+/* log */
+#log {
+  margin-top: 80px;
+}
+#myLog {
+    background-color:#D9D9D9;
+    width: 310px;
+    margin: 10px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+.undoButton {
+    display: flex;
+    border-radius: 11px;
+    background: #D9D9D9;
+    border-color: #D9D9D9;
+    margin: auto;
+    justify-content: center;
+    justify-self: center;
+    margin-bottom: 5px;
+}
+  #myUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: scroll;
+    max-height: 200px;
+  }
+
+  
+ 
+  .log_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-left: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+  
+  .log_container:last-child {
+    border-bottom: none;
+  }
+  
+  .log_container > div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .log_container > div:first-child {
+    margin-right: 10px;
+  }
+  
+  .value-container {
+    justify-content: center;
+    width: 100px;
+    max-width: 300px;
+    border-radius: 5px;
+    /* padding-left: 5px; */
+    background-color: #f2f2f2;
+    overflow:hidden;
+    border-radius: 12px;
+    margin-top: 5px;
+  }
+  
+  .value-container:last-child {
+    margin-right: 0;
+  }
+  
+  button.delete {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 3px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 900;
+    height: 23px;
+    align-items: center;
+    text-align: center;
+  }
+  .container .delete { /* Add styles for the delete button */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    height: fit-content;
+  }
+  .value-container-sale {
+    justify-content: center;
+    width: 100px;
+    max-width: 300px;
+    border-radius: 5px;
+    /* padding-left: 5px; */
+    background-color: hsla(120, 100%, 25%, 0.253);
+    overflow:hidden;
+    border-radius: 12px;
+    margin-top: 5px;
+  }
+  .value-container-expense {
+    justify-content: center;
+    width: 100px;
+    max-width: 300px;
+    border-radius: 5px;
+    /* padding-left: 5px; */
+    background-color: rgba(255, 0, 0, 0.253);
+    overflow:hidden;
+    border-radius: 12px;
+    margin-top: 5px;
+  }
+  
+
+
